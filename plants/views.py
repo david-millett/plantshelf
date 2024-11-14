@@ -20,6 +20,9 @@ class ListPlantView(APIView):
     
     # Create controller
     # Route: POST /plants/
+
+#! ADD EXCEPTIONS AND ERROR HANDLING
+
     def post(self, request):
         print(request.data)
         new_plant = PlantSerializer(data=request.data)
