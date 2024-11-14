@@ -1,0 +1,302 @@
+[
+{
+  "model": "plants.plant",
+  "pk": 1,
+  "fields": {
+    "common_name": "Spider Plant",
+    "genus": "Chlorophytum",
+    "species": "comosum",
+    "image": "none",
+    "bio": "The Spider Plant is one of the most popular and easy-to-care-for houseplants, known for its unique arching leaves and small plantlets, which dangle like spiders on a web. This resilient plant can thrive in various light conditions, making it an ideal choice for beginners. It's also a great air purifier, helping to improve indoor air quality.",
+    "light": "Indirect",
+    "is_toxic": false,
+    "difficulty": "beginner",
+    "water_interval": 7
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 2,
+  "fields": {
+    "common_name": "Snake Plant",
+    "genus": "Sansevieria",
+    "species": "trifasciata",
+    "image": "none",
+    "bio": "Also known as Mother-in-Law's Tongue, the Snake Plant is famous for its sword-like leaves and hardiness. It can tolerate low light and infrequent watering, making it a great choice for those new to plant care. In addition, it is known to release oxygen at night, helping to freshen indoor air while you sleep.",
+    "light": "Low to Bright",
+    "is_toxic": true,
+    "difficulty": "beginner",
+    "water_interval": 14
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 3,
+  "fields": {
+    "common_name": "Pothos",
+    "genus": "Epipremnum",
+    "species": "aureum",
+    "image": "none",
+    "bio": "The Pothos is a popular trailing vine with heart-shaped leaves. It’s exceptionally resilient, adapting to various lighting conditions, and even tolerates some neglect. This plant is often used for hanging baskets or shelves and adds a lush, green touch to any room. It’s also known for its air-purifying qualities.",
+    "light": "Low to Medium",
+    "is_toxic": true,
+    "difficulty": "beginner",
+    "water_interval": 10
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 4,
+  "fields": {
+    "common_name": "Peace Lily",
+    "genus": "Spathiphyllum",
+    "species": "wallisii",
+    "image": "none",
+    "bio": "Peace Lilies are loved for their white, sail-like flowers and deep green foliage. They are easy to care for and can thrive in low-light environments, making them ideal for offices and low-light spaces. Peace Lilies are also effective at removing toxins from the air, improving indoor air quality.",
+    "light": "Low",
+    "is_toxic": true,
+    "difficulty": "beginner",
+    "water_interval": 7
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 5,
+  "fields": {
+    "common_name": "Monstera",
+    "genus": "Monstera",
+    "species": "deliciosa",
+    "image": "none",
+    "bio": "The Monstera, known for its large, fenestrated leaves, is a striking plant that adds a tropical feel to indoor spaces. It prefers bright, indirect light and requires regular watering. With proper care, it can grow impressively large and becomes a bold centerpiece in any room.",
+    "light": "Bright Indirect",
+    "is_toxic": true,
+    "difficulty": "medium",
+    "water_interval": 10
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 6,
+  "fields": {
+    "common_name": "ZZ Plant",
+    "genus": "Zamioculcas",
+    "species": "zamiifolia",
+    "image": "none",
+    "bio": "The ZZ Plant is a popular choice for beginners and low-maintenance households. Its thick, waxy leaves store water, allowing it to survive in low light and with infrequent watering. This plant is also known for its ability to purify the air and adapt to various conditions.",
+    "light": "Low to Medium",
+    "is_toxic": true,
+    "difficulty": "beginner",
+    "water_interval": 14
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 7,
+    "fields": {
+    "common_name": "Aloe Vera",
+    "genus": "Aloe",
+    "species": "barbadensis miller",
+    "image": "none",
+    "bio": "Aloe Vera is a succulent that’s well-known for its medicinal properties, especially for soothing skin burns. It requires plenty of sunlight and only occasional watering. Aloe is a great choice for sunny windowsills and requires minimal care, making it perfect for beginners.",
+    "light": "Bright",
+    "is_toxic": true,
+    "difficulty": "beginner",
+    "water_interval": 21
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 8,
+  "fields": {
+    "common_name": "Fiddle Leaf Fig",
+    "genus": "Ficus",
+    "species": "lyrata",
+    "image": "none",
+    "bio": "The Fiddle Leaf Fig is a popular indoor tree with large, violin-shaped leaves. It requires a bit more attention, needing bright, indirect light and a consistent watering routine. This plant can grow quite tall and adds a dramatic touch to any indoor space.",
+    "light": "Bright Indirect",
+    "is_toxic": true,
+    "difficulty": "expert",
+    "water_interval": 7
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 9,
+  "fields": {
+    "common_name": "Boston Fern",
+    "genus": "Nephrolepis",
+    "species": "exaltata",
+    "image": "none",
+    "bio": "Boston Ferns are beloved for their lush, feathery fronds. They thrive in humid environments and prefer indirect light. Regular watering and misting are essential for keeping this fern healthy. They can be a bit finicky, but their unique beauty makes them worth the effort.",
+    "light": "Indirect",
+    "is_toxic": false,
+    "difficulty": "medium",
+    "water_interval": 3
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 10,
+  "fields": {
+    "common_name": "Rubber Plant",
+    "genus": "Ficus",
+    "species": "elastica",
+    "image": "none",
+    "bio": "The Rubber Plant is known for its glossy, dark green leaves and can grow to impressive heights with the right care. It prefers moderate light and regular watering. This plant is relatively easy to care for and adds a bold, tropical look to any space.",
+    "light": "Moderate",
+    "is_toxic": true,
+    "difficulty": "medium",
+    "water_interval": 7
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 11,
+  "fields": {
+    "common_name": "Philodendron",
+    "genus": "Philodendron",
+    "species": "spp.",
+    "image": "none",
+    "bio": "Philodendrons are versatile, hardy plants with heart-shaped leaves that can adapt to different lighting conditions. They are easy to care for, making them ideal for beginners. These plants can be grown as climbers or trailers and add a lush, green touch to any space.",
+    "light": "Low to Medium",
+    "is_toxic": true,
+    "difficulty": "beginner",
+    "water_interval": 7
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 12,
+  "fields": {
+    "common_name": "Chinese Money Plant",
+    "genus": "Pilea",
+    "species": "peperomioides",
+    "image": "none",
+    "bio": "Known for its round, coin-like leaves, the Chinese Money Plant is a unique and easy-to-care-for houseplant. It thrives in bright, indirect light and is often given as a gift for good luck. This plant is compact and ideal for small spaces.",
+    "light": "Bright Indirect",
+    "is_toxic": false,
+    "difficulty": "beginner",
+    "water_interval": 7
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 13,
+  "fields": {
+    "common_name": "Dracaena",
+    "genus": "Dracaena",
+    "species": "spp.",
+    "image": "none",
+    "bio": "Dracaenas are tall, upright plants with long, spiky leaves. They’re adaptable and can tolerate low to moderate light, making them ideal for indoor spaces. Dracaenas require minimal care and are also effective air purifiers.",
+    "light": "Low to Moderate",
+    "is_toxic": true,
+    "difficulty": "beginner",
+    "water_interval": 14
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 14,
+  "fields": {
+    "common_name": "Jade Plant",
+    "genus": "Crassula",
+    "species": "ovata",
+    "image": "none",
+    "bio": "The Jade Plant is a succulent with thick, fleshy leaves that stores water. It is a low-maintenance plant that loves bright sunlight and infrequent watering. Jade Plants are believed to bring good fortune and are often grown as a symbol of prosperity.",
+    "light": "Bright",
+    "is_toxic": true,
+    "difficulty": "beginner",
+    "water_interval": 21
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 15,
+  "fields": {
+    "common_name": "String of Pearls",
+    "genus": "Senecio",
+    "species": "rowleyanus",
+    "image": "none",
+    "bio": "String of Pearls is a unique trailing succulent with bead-like leaves. It thrives in bright light and requires minimal watering, making it ideal for sunny windowsills. This plant has a distinctive look and adds texture to any indoor space.",
+    "light": "Bright",
+    "is_toxic": true,
+    "difficulty": "medium",
+    "water_interval": 14
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 16,
+  "fields": {
+    "common_name": "Calathea",
+    "genus": "Calathea",
+    "species": "spp.",
+    "image": "none",
+    "bio": "Calatheas are known for their striking foliage with intricate patterns. They thrive in indirect light and high humidity, requiring regular misting. Though they can be finicky, Calatheas make a beautiful addition to any room with their unique, colorful leaves.",
+    "light": "Indirect",
+    "is_toxic": false,
+    "difficulty": "medium",
+    "water_interval": 5
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 17,
+  "fields": {
+    "common_name": "Bird’s Nest Fern",
+    "genus": "Asplenium",
+    "species": "nidus",
+    "image": "none",
+    "bio": "The Bird’s Nest Fern is characterized by its wavy, upright leaves. It thrives in humid environments with indirect light. This plant is perfect for bathrooms or kitchens and adds a touch of lush greenery to any indoor space.",
+    "light": "Indirect",
+    "is_toxic": false,
+    "difficulty": "medium",
+    "water_interval": 5
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 18,
+  "fields": {
+    "common_name": "Parlor Palm",
+    "genus": "Chamaedorea",
+    "species": "elegans",
+    "image": "none",
+    "bio": "The Parlor Palm is a compact, elegant plant that thrives in low light, making it an excellent choice for indoor environments. It requires minimal care and adds a tropical touch to any space. The Parlor Palm is also non-toxic, making it safe for households with pets.",
+    "light": "Low",
+    "is_toxic": false,
+    "difficulty": "beginner",
+    "water_interval": 10
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 19,
+  "fields": {
+    "common_name": "English Ivy",
+    "genus": "Hedera",
+    "species": "helix",
+    "image": "none",
+    "bio": "English Ivy is a versatile, fast-growing climber that can be grown indoors in moderate light. Its cascading leaves add a classic look to any space. English Ivy is also known for its air-purifying properties, though it is toxic to pets.",
+    "light": "Moderate",
+    "is_toxic": true,
+    "difficulty": "medium",
+    "water_interval": 7
+  }
+},
+{
+  "model": "plants.plant",
+  "pk": 20,
+  "fields": {
+    "common_name": "Hoya",
+    "genus": "Hoya",
+    "species": "spp.",
+    "image": "none",
+    "bio": "Hoyas are waxy-leaved plants that produce fragrant, star-shaped flowers. They prefer bright, indirect light and are relatively low-maintenance, making them a popular choice for indoor spaces. Hoyas are slow-growing and can be enjoyed for many years.",
+    "light": "Bright Indirect",
+    "is_toxic": false,
+    "difficulty": "medium",
+    "water_interval": 14
+  }
+}
+]

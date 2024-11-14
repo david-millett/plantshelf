@@ -1,5 +1,6 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
+from rest_framework import status
 from .serializers import PlantSerializer
 from utils.exceptions import handle_exceptions
 
@@ -16,6 +17,15 @@ class ListPlantView(APIView):
         plants = Plant.objects.all()
         serializer = PlantSerializer(plants, many=True)
         return Response(serializer.data)
+    
+    # Create controller
+    # Route: POST /plants/
+    def post(self, request):
+        print(request.data)
+        new_plant = PlantSerializer(data=request.data)
+        new_plant.is_valid(raise_exception=True)
+        new_plant.save()
+        return Response(new_plant.data, status.HTTP_201_CREATED)
     
 class RetrievePlantView(APIView):
     
