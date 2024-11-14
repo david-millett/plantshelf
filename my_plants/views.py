@@ -20,6 +20,8 @@ class ListCreateMyPlantView(APIView):
         serialzer = MyPlantSerializer(my_plants, many=True)
         return Response(serialzer.data)
     
+# ! Need to dynamically add user ID
+
     # Create contoller
     # Route: POST /my_plants/
     @handle_exceptions
@@ -30,4 +32,29 @@ class ListCreateMyPlantView(APIView):
         return Response(my_new_plant.data, status.HTTP_201_CREATED)
 
 class RetrieveUpdateDestroyMyPlantView(APIView):
-    pass
+    
+    # Show controller
+    # Route: GET /my_plants/:pk/
+    @handle_exceptions
+    def get(self, request, pk):
+        my_plant = My_plant.objects.get(pk=pk)
+        serializer = MyPlantSerializer(my_plant)
+        return Response(serializer.data)
+    
+    # Delete controller
+    # Route: DELETE /my_plants/:pk/
+    @handle_exceptions
+    def delete(self, request, pk):
+        my_plant = My_plant.objects.get(pk=pk)
+        my_plant.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
+    
+    # Update controller
+    # Route: PUT /my_plants/:pk/
+    @handle_exceptions
+    def put(self, request, pk):
+        my_plant = My_plant.objects.get(pk=pk)
+        serializer = MyPlantSerializer(my_plant, data=request.data, partial=True)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data)
