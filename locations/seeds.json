@@ -1,0 +1,86 @@
+[
+{
+  "model": "locations.location",
+  "pk": 1,
+  "fields": {
+    "name": "Living Room"
+  }
+},
+{
+  "model": "locations.location",
+  "pk": 2,
+  "fields": {
+    "name": "Main Bedroom"
+  }
+},
+{
+  "model": "locations.location",
+  "pk": 3,
+  "fields": {
+    "name": "Bathroom"
+  }
+},
+{
+  "model": "locations.location",
+  "pk": 4,
+  "fields": {
+    "name": "Kitchen"
+  }
+},
+{
+  "model": "locations.location",
+  "pk": 5,
+  "fields": {
+    "name": "Study"
+  }
+},
+{
+  "model": "locations.location",
+  "pk": 6,
+  "fields": {
+    "name": "Hall"
+  }
+},
+{
+  "model": "locations.location",
+  "pk": 7,
+  "fields": {
+    "name": "Landing"
+  }
+},
+{
+  "model": "locations.location",
+  "pk": 8,
+  "fields": {
+    "name": "Conservatory"
+  }
+},
+{
+  "model": "locations.location",
+  "pk": 9,
+  "fields": {
+    "name": "Porch"
+  }
+},
+{
+  "model": "locations.location",
+  "pk": 10,
+  "fields": {
+    "name": "Dining Room"
+  }
+},
+{
+  "model": "locations.location",
+  "pk": 11,
+  "fields": {
+    "name": "Bedroom 2"
+  }
+},
+{
+  "model": "locations.location",
+  "pk": 12,
+  "fields": {
+    "name": "Bedroom 3"
+  }
+}
+]

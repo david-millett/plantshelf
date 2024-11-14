@@ -1,0 +1,20 @@
+[
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$qEWyihxUYLEdK6bh4Qut5e$5TW6sFOjbbIKglxtyKYmZCVflrMJ5GW2Yd3HdvKi134=",
+    "last_login": "2024-11-13T12:30:29.785Z",
+    "is_superuser": true,
+    "username": "plantadmin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-11-13T12:29:36.260Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
