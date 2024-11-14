@@ -10,6 +10,7 @@ pylint = "*"
 autopep8 = "*"
 python-dotenv = "*"
 djangorestframework = "*"
+djangorestframework-simplejwt = "*"
 
 [dev-packages]
 
