@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'users',
     'plants',
     'locations',
+    'my_plants'
 ]
 
 MIDDLEWARE = [
