@@ -1,5 +1,6 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
+from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from rest_framework import status
 from .serializers import PlantSerializer
 from utils.exceptions import handle_exceptions
@@ -9,6 +10,7 @@ from .models import Plant
 
 # Create your views here.
 class ListPlantView(APIView):
+    permission_classes=[IsAuthenticatedOrReadOnly]
 
     # Index controller
     # Route: GET /plants/
@@ -18,11 +20,10 @@ class ListPlantView(APIView):
         serializer = PlantSerializer(plants, many=True)
         return Response(serializer.data)
     
+#! ADD EXCEPTIONS AND ERROR HANDLING
     # Create controller
     # Route: POST /plants/
-
-#! ADD EXCEPTIONS AND ERROR HANDLING
-
+    @handle_exceptions
     def post(self, request):
         print(request.data)
         new_plant = PlantSerializer(data=request.data)
