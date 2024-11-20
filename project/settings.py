@@ -31,12 +31,12 @@ SECRET_KEY = getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False if getenv('ENVIRONMENT') == 'production' else True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'plantshelf-5459c67d3481.herokuapp.com/']
+ALLOWED_HOSTS = ['127.0.0.1', 'plantshelf-5459c67d3481.herokuapp.com']
 
 CORS_ALLOWED_ORIGINS = ["http://localhost:5173"]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://plantshelf-5459c67d3481.herokuapp.com/'
+    'https://plantshelf-5459c67d3481.herokuapp.com'
 ]
 
 # Application definition
