@@ -13,15 +13,19 @@ User = get_user_model()
 # Create your views here.
 class SignUpView(APIView):
 
-# ! Add auto sign in, erro handling
+# ! Add erro handling
 
     def post(self, request):
         new_user = UserSerializer(data=request.data)
         new_user.is_valid(raise_exception=True)
-        new_user.save()
+        created_user = new_user.save()
+
+        token_pair = RefreshToken.for_user(created_user)
+
         return Response({
             'message': 'Signup successful',
-            'user': new_user.data
+            'user': new_user.data,
+            'token': str(token_pair.access_token)
         })
     
 class SignInView(APIView):
@@ -34,7 +38,7 @@ class SignInView(APIView):
         # Find the user with matching username or email
         user = User.objects.get(Q(username=u_or_e) | Q(email=u_or_e))
 
-        # Check the plain text password from the request body against the stored hash
+        # Check plain text password from request body against stored hash
         if hashers.check_password(password, user.password):
             # Generate token using simpleJWT
             token_pair = RefreshToken.for_user(user)

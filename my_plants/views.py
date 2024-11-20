@@ -64,3 +64,14 @@ class RetrieveUpdateDestroyMyPlantView(APIView):
         serializer.is_valid(raise_exception=True)
         serializer.save()
         return Response(serializer.data)
+    
+    # Update patch controller
+    # Route: PATCH /my_plants/:pk/
+    @handle_exceptions
+    def patch(self, request, pk):
+        my_plant = My_plant.objects.get(pk=pk)
+        self.check_object_permissions(request, my_plant)
+        serializer = MyPlantSerializer(my_plant, data=request.data, partial=True)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data)
