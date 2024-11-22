@@ -19,7 +19,7 @@ class ListCreateMyPlantView(APIView):
     # Route: GET /my_plants/
     @handle_exceptions
     def get(self, request):
-        my_plants = My_plant.objects.filter(owner=request.user.id)
+        my_plants = My_plant.objects.select_related('species', 'owner', 'location').filter(owner=request.user.id)
         serialzer = PopulatedMyPlantSerializer(my_plants, many=True)
         return Response(serialzer.data)
     

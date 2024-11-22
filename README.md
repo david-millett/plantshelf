@@ -63,3 +63,11 @@ const handleSubmit = async (e) => {
         }
     }
 navigate away caused issues, because I was still using the same url - had to separate out fetchMyPLant with useCallback and pass it down to refresh the page after editing
+
+Day 7/8
+lots of styling and arranging to enable styling
+made some changes to the backend to make it more efficient
+
+created a DYNAMIC BOOKSHELF (aka the eponymous plantshelf). This automatically generates the required number of shelves. min three layers to give height and make it clearer that it is a bookshelf. uses remainder to calculate required shelves to finish a row, generates new rows as requried.
+
+made all forms modal pop ups

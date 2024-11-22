@@ -22,7 +22,11 @@ class My_plant(models.Model):
     )
     last_watered = models.DateField(blank=True, null=True)
     added_on = models.DateField(auto_now_add=True)
-    # updates =
+
+    class Meta:
+        indexes = [
+            models.Index(fields=['owner'])
+        ]
 
     def __str__(self):
         return self.nickname

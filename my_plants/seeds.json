@@ -1,0 +1,156 @@
+[
+{
+  "model": "my_plants.my_plant",
+  "pk": 1,
+  "fields": {
+    "nickname": "Buddy",
+    "species": 2,
+    "owner": 1,
+    "height": null,
+    "photo": null,
+    "location": 4,
+    "last_watered": null,
+    "added_on": "2024-11-14"
+  }
+},
+{
+  "model": "my_plants.my_plant",
+  "pk": 4,
+  "fields": {
+    "nickname": "Buddy",
+    "species": 2,
+    "owner": 1,
+    "height": null,
+    "photo": null,
+    "location": 4,
+    "last_watered": null,
+    "added_on": "2024-11-14"
+  }
+},
+{
+  "model": "my_plants.my_plant",
+  "pk": 5,
+  "fields": {
+    "nickname": "Buddy",
+    "species": 2,
+    "owner": 1,
+    "height": null,
+    "photo": null,
+    "location": 4,
+    "last_watered": null,
+    "added_on": "2024-11-15"
+  }
+},
+{
+  "model": "my_plants.my_plant",
+  "pk": 6,
+  "fields": {
+    "nickname": "Petal",
+    "species": 2,
+    "owner": 2,
+    "height": null,
+    "photo": null,
+    "location": 4,
+    "last_watered": "2024-11-19",
+    "added_on": "2024-11-15"
+  }
+},
+{
+  "model": "my_plants.my_plant",
+  "pk": 9,
+  "fields": {
+    "nickname": "Trevor",
+    "species": 1,
+    "owner": 2,
+    "height": 5,
+    "photo": null,
+    "location": 1,
+    "last_watered": "2024-11-12",
+    "added_on": "2024-11-18"
+  }
+},
+{
+  "model": "my_plants.my_plant",
+  "pk": 11,
+  "fields": {
+    "nickname": "Peace Lily",
+    "species": 4,
+    "owner": 2,
+    "height": 3,
+    "photo": null,
+    "location": 1,
+    "last_watered": "2024-11-18",
+    "added_on": "2024-11-18"
+  }
+},
+{
+  "model": "my_plants.my_plant",
+  "pk": 13,
+  "fields": {
+    "nickname": "Figgy",
+    "species": 8,
+    "owner": 2,
+    "height": 3,
+    "photo": null,
+    "location": 1,
+    "last_watered": "2024-11-19",
+    "added_on": "2024-11-18"
+  }
+},
+{
+  "model": "my_plants.my_plant",
+  "pk": 19,
+  "fields": {
+    "nickname": "Buddy",
+    "species": 10,
+    "owner": 2,
+    "height": 3,
+    "photo": null,
+    "location": 4,
+    "last_watered": "2024-11-13",
+    "added_on": "2024-11-19"
+  }
+},
+{
+  "model": "my_plants.my_plant",
+  "pk": 20,
+  "fields": {
+    "nickname": "Trevor 2",
+    "species": 3,
+    "owner": 2,
+    "height": 4,
+    "photo": null,
+    "location": 1,
+    "last_watered": "2024-11-18",
+    "added_on": "2024-11-19"
+  }
+},
+{
+  "model": "my_plants.my_plant",
+  "pk": 22,
+  "fields": {
+    "nickname": "Trevor III",
+    "species": 1,
+    "owner": 2,
+    "height": 3,
+    "photo": null,
+    "location": 1,
+    "last_watered": "2024-11-19",
+    "added_on": "2024-11-19"
+  }
+},
+{
+  "model": "my_plants.my_plant",
+  "pk": 25,
+  "fields": {
+    "nickname": "Spike",
+    "species": 2,
+    "owner": 2,
+    "height": 3,
+    "photo": null,
+    "location": 8,
+    "last_watered": "2024-11-19",
+    "added_on": "2024-11-19"
+  }
+}
+]

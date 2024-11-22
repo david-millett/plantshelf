@@ -20,7 +20,6 @@ class ListPlantView(APIView):
         serializer = PlantSerializer(plants, many=True)
         return Response(serializer.data)
     
-#! ADD EXCEPTIONS AND ERROR HANDLING
     # Create controller
     # Route: POST /plants/
     @handle_exceptions

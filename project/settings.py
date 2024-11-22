@@ -33,7 +33,7 @@ DEBUG = False if getenv('ENVIRONMENT') == 'production' else True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'plantshelf-5459c67d3481.herokuapp.com']
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:5173"]
+CORS_ALLOWED_ORIGINS = ["http://localhost:5173", "https://plantshelf.netlify.app"]
 
 CSRF_TRUSTED_ORIGINS = [
     'https://plantshelf-5459c67d3481.herokuapp.com'
